@@ -1,0 +1,9 @@
+
+version: '3.4'
+
+services:
+  megara:
+    image: megara
+    build:
+      context: .
+      dockerfile: megara/Dockerfile

@@ -1,0 +1,15 @@
+/Users/ninbura/repos/megara.net/megara/bin/Debug/net9.0/megara
+/Users/ninbura/repos/megara.net/megara/bin/Debug/net9.0/megara.deps.json
+/Users/ninbura/repos/megara.net/megara/bin/Debug/net9.0/megara.runtimeconfig.json
+/Users/ninbura/repos/megara.net/megara/bin/Debug/net9.0/megara.dll
+/Users/ninbura/repos/megara.net/megara/bin/Debug/net9.0/megara.pdb
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.AssemblyInfoInputs.cache
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.AssemblyInfo.cs
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.csproj.CoreCompileInputs.cache
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.sourcelink.json
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.dll
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/refint/megara.dll
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.pdb
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/megara.genruntimeconfig.cache
+/Users/ninbura/repos/megara.net/megara/obj/Debug/net9.0/ref/megara.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nhiVHm9KL1A=",
+  "success": true,
+  "projectFilePath": "/Users/ninbura/repos/megara.net/megara/megara.csproj",
+  "expectedPackageFiles": [
+    "/Users/ninbura/.nuget/packages/microsoft.net.build.containers/9.0.102/microsoft.net.build.containers.9.0.102.nupkg.sha512"
+  ],
+  "logs": []
+}

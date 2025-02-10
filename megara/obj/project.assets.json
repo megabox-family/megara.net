@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Microsoft.NET.Build.Containers/9.0.102": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.Build.Containers.props": {},
+          "build/Microsoft.NET.Build.Containers.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NET.Build.Containers/9.0.102": {
+      "sha512": "sS3H1eyOAnkPllZ6mxfVaQn7xzHpjeiqzJq90qXqdaqOVA4oNgwq5Dm1JuAX3QRWMc4e7heDpXjFbDjHeH7oJg==",
+      "type": "package",
+      "path": "microsoft.net.build.containers/9.0.102",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "build/Microsoft.NET.Build.Containers.props",
+        "build/Microsoft.NET.Build.Containers.targets",
+        "containerize/Microsoft.DotNet.Cli.Utils.dll",
+        "containerize/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "containerize/Microsoft.Extensions.Configuration.Binder.dll",
+        "containerize/Microsoft.Extensions.Configuration.dll",
+        "containerize/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "containerize/Microsoft.Extensions.DependencyInjection.dll",
+        "containerize/Microsoft.Extensions.DependencyModel.dll",
+        "containerize/Microsoft.Extensions.Logging.Abstractions.dll",
+        "containerize/Microsoft.Extensions.Logging.Configuration.dll",
+        "containerize/Microsoft.Extensions.Logging.Console.dll",
+        "containerize/Microsoft.Extensions.Logging.dll",
+        "containerize/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "containerize/Microsoft.Extensions.Options.dll",
+        "containerize/Microsoft.Extensions.Primitives.dll",
+        "containerize/Microsoft.NET.Build.Containers.dll",
+        "containerize/Newtonsoft.Json.dll",
+        "containerize/NuGet.Common.dll",
+        "containerize/NuGet.Configuration.dll",
+        "containerize/NuGet.DependencyResolver.Core.dll",
+        "containerize/NuGet.Frameworks.dll",
+        "containerize/NuGet.LibraryModel.dll",
+        "containerize/NuGet.Packaging.dll",
+        "containerize/NuGet.ProjectModel.dll",
+        "containerize/NuGet.Protocol.dll",
+        "containerize/NuGet.Versioning.dll",
+        "containerize/System.CommandLine.dll",
+        "containerize/Valleysoft.DockerCredsProvider.dll",
+        "containerize/containerize.dll",
+        "containerize/containerize.runtimeconfig.json",
+        "microsoft.net.build.containers.9.0.102.nupkg.sha512",
+        "microsoft.net.build.containers.nuspec",
+        "tasks/net472/Microsoft.NET.Build.Containers.dll",
+        "tasks/net472/Newtonsoft.Json.dll",
+        "tasks/net472/NuGet.Common.dll",
+        "tasks/net472/NuGet.Configuration.dll",
+        "tasks/net472/NuGet.Frameworks.dll",
+        "tasks/net472/NuGet.Packaging.dll",
+        "tasks/net472/NuGet.Versioning.dll",
+        "tasks/net9.0/Microsoft.DotNet.Cli.Utils.dll",
+        "tasks/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tasks/net9.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tasks/net9.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tasks/net9.0/Microsoft.Extensions.Logging.dll",
+        "tasks/net9.0/Microsoft.Extensions.Options.dll",
+        "tasks/net9.0/Microsoft.Extensions.Primitives.dll",
+        "tasks/net9.0/Microsoft.NET.Build.Containers.deps.json",
+        "tasks/net9.0/Microsoft.NET.Build.Containers.dll",
+        "tasks/net9.0/Newtonsoft.Json.dll",
+        "tasks/net9.0/NuGet.Common.dll",
+        "tasks/net9.0/NuGet.Configuration.dll",
+        "tasks/net9.0/NuGet.Frameworks.dll",
+        "tasks/net9.0/NuGet.Packaging.dll",
+        "tasks/net9.0/NuGet.Versioning.dll",
+        "tasks/net9.0/Valleysoft.DockerCredsProvider.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Microsoft.NET.Build.Containers >= 9.0.102"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ninbura/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ninbura/repos/megara.net/megara/megara.csproj",
+      "projectName": "megara",
+      "projectPath": "/Users/ninbura/repos/megara.net/megara/megara.csproj",
+      "packagesPath": "/Users/ninbura/.nuget/packages/",
+      "outputPath": "/Users/ninbura/repos/megara.net/megara/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ninbura/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.NET.Build.Containers": {
+            "target": "Package",
+            "version": "[9.0.102, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/publish/megara
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/publish/megara.dll
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/publish/megara.deps.json
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/publish/megara.runtimeconfig.json
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/publish/megara.pdb

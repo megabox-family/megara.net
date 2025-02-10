@@ -1,0 +1,15 @@
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/megara
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/megara.deps.json
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/megara.runtimeconfig.json
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/megara.dll
+/Users/ninbura/repos/megara.net/megara/bin/Release/net9.0/linux-x64/megara.pdb
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.AssemblyInfoInputs.cache
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.AssemblyInfo.cs
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.csproj.CoreCompileInputs.cache
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.sourcelink.json
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.dll
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/refint/megara.dll
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.pdb
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/megara.genruntimeconfig.cache
+/Users/ninbura/repos/megara.net/megara/obj/Release/net9.0/linux-x64/ref/megara.dll

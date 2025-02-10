@@ -1,0 +1,106 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "msbuild",
+			"args": [
+				"/property:GenerateFullPaths=true",
+				"/t:build",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"group": "build",
+			"presentation": {
+				"reveal": "silent"
+			},
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "Run Current File",
+			"command": "powershell",
+			"presentation": {
+				"reveal": "always"
+			},
+			"args": [
+				"-ExecutionPolicy",
+				"Unrestricted",
+				"-NoProfile",
+				"Invoke-Expression \"& 'C:\\Users\\$env:UserName\\AppData\\Roaming\\Code\\User\\RunCurrentFile.ps1' -currentFileName '${fileBasename}' -currentFilePath '${file}'\""
+			]
+		},
+		{
+			"label": "Run Report",
+			"command": "powershell",
+			"presentation": {
+				"reveal": "always"
+			},
+			"args": [
+				"-ExecutionPolicy",
+				"Unrestricted",
+				"-NoProfile",
+				"Invoke-Expression \"& 'C:\\Users\\$env:UserName\\AppData\\Roaming\\Code\\User\\RunReport.ps1'\""
+			]
+		},
+		{
+			"type": "docker-build",
+			"label": "docker-build: debug",
+			"dependsOn": [
+				"build"
+			],
+			"dockerBuild": {
+				"tag": "megaranet:dev",
+				"target": "base",
+				"dockerfile": "${workspaceFolder}/megara/Dockerfile",
+				"context": "${workspaceFolder}",
+				"pull": true
+			},
+			"netCore": {
+				"appProject": "${workspaceFolder}/megara/megara.csproj"
+			}
+		},
+		{
+			"type": "docker-build",
+			"label": "docker-build: release",
+			"dependsOn": [
+				"build"
+			],
+			"dockerBuild": {
+				"tag": "megaranet:latest",
+				"dockerfile": "${workspaceFolder}/megara/Dockerfile",
+				"context": "${workspaceFolder}",
+				"platform": {
+					"os": "linux",
+					"architecture": "amd64"
+				},
+				"pull": true
+			},
+			"netCore": {
+				"appProject": "${workspaceFolder}/megara/megara.csproj"
+			}
+		},
+		{
+			"type": "docker-run",
+			"label": "docker-run: debug",
+			"dependsOn": [
+				"docker-build: debug"
+			],
+			"dockerRun": {},
+			"netCore": {
+				"appProject": "${workspaceFolder}/megara/megara.csproj",
+				"enableDebugging": true
+			}
+		},
+		{
+			"type": "docker-run",
+			"label": "docker-run: release",
+			"dependsOn": [
+				"docker-build: release"
+			],
+			"dockerRun": {},
+			"netCore": {
+				"appProject": "${workspaceFolder}/megara/megara.csproj"
+			}
+		}
+	]
+}
